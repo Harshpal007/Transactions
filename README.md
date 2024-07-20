@@ -8,6 +8,7 @@ To deploy this project run
   python3 -m venv virtualenv  
   source virtualenv/bin/activate
   pip install -r requirements.txt
+  uvicorn app.main:app --reload 
 ```
 ## API Reference
 
